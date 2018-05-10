@@ -5,7 +5,7 @@ var quoteUrl = "https://quotesondesign.com/wp-json/posts?filter[orderby]=rand&fi
 // FUNCTION FOR GETTING THE QUOTE
 function getQuote() {
     $.getJSON(prefix + quoteUrl, createTweet);
-    $.ajaxSetup({cache: false});
+    $.ajaxSetup({ cache: false });
 }
 
 function createTweet(input) {
@@ -18,7 +18,7 @@ function createTweet(input) {
     quoteAuthor = "Unknown author";
   }
 
-  var tweetText = "Quote of the day - " + quoteText + " Author: " + auoteAuthor;
+  var tweetText = "Quote of the day - " + quoteText + " Author: " + quoteAuthor;
 
   if (tweetText.length > 140) {
     getQuote();
@@ -32,6 +32,7 @@ function createTweet(input) {
 
   $(document).ready(function() {
     getQuote();
+    console.log("Hi everyone");
     $('.trigger').click(function() {
       getQuote();
     });
