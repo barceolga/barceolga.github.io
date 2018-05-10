@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css?family=Gothic+A1");
+@import url("https://fonts.googleapis.com/css?family=Bree+Serif");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  background-color: #b3ff99;
+}
+
+body main {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-direction: column;
+      flex-direction: column;
+}
+
+body main header {
+  width: 100%;
+  height: 95px;
+}
+
+body main header h1 {
+  font-size: 35px;
+  font-family: "Ghothic A1", sans-serif;
+  color: #134d00;
+  font-weight: 800;
+  font-style: oblique;
+  text-transform: capitalize;
+  text-shadow: 4.5px 4.5px AD6938;
+  text-align: center;
+  padding: 15px;
+}
+
+body main .box {
+  width: 80vw;
+  height: 20vh;
+  border: 10px solid #0c3300;
+  background-color: #4fff1a;
+}
+
+body main .box .quote {
+  font-size: 25px;
+  font-family: "Bree Serif", serif;
+  color: #134d00;
+  font-weight: 400;
+  text-align: center;
+  padding: 10px;
+}
+
+body main .box .author {
+  font-size: 20px;
+  font-family: "Ghothic A1", sans-serif;
+  color: #4d1300;
+  font-weight: 700;
+  text-align: center;
+  padding: 8px;
+}
+
+body main div {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  -ms-flex-align: center;
+      align-items: center;
+}
+
+body main div .trigger {
+  margin: 50px;
+  background-color: #ff4000;
+  width: 250px;
+  height: 75px;
+  border: none;
+  border-radius: 10px;
+  padding: 25px;
+  font-size: 18px;
+  text-align: center;
+  font-weight: 900;
+  font-family: "Bree Serif", serif;
+  color: #4fff1a;
+  transition: 1s linear;
+  cursor: pointer;
+}
+
+body main div .trigger:hover {
+  background-color: #4fff1a;
+  color: #ff4000;
+}
+
+body main div .tweet {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-align: center;
+      align-items: center;
+  width: 250px;
+  height: 75px;
+  border: none;
+  border-radius: 10px;
+  background-color: #0c3300;
+  color: #ff8c66;
+  text-decoration: none;
+  font-size: 18px;
+  padding-left: 75px;
+  padding-right: 75px;
+  text-align: center;
+  font-weight: 900;
+  font-family: "Ghothic A1", sans-serif;
+  transition: 1s linear;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */
