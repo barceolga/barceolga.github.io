@@ -29,12 +29,12 @@ function createTweet(input) {
     $('.tweet').attr('href', tweet);
 
   }
-
-  $(document).ready(function() {
-    getQuote();
-    console.log("Hi everyone");
-    $('.trigger').click(function() {
-      getQuote();
-    });
-  });
 }
+
+$(document).ready(function() {
+  getQuote();
+  console.log("Hi everyone");
+  $('.trigger').click(function() {
+    getQuote();
+  });
+});
